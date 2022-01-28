@@ -11,7 +11,7 @@ input.addEventListener('keydown', function (event) {
 function loadImg() {
     removeImg();
 
-    const url = 'https://api.unsplash.com/search/photos/?query=' + input.value + '&per_page=5&client_id=5YOaC1RRs3jNNA5q6aTCxxLP_GU-X5JQwP9tO26pOI4';
+    const url = 'https://api.unsplash.com/search/photos/?query=' + input.value + '&per_page=20&client_id=5YOaC1RRs3jNNA5q6aTCxxLP_GU-X5JQwP9tO26pOI4';
 
     fetch(url)
 
